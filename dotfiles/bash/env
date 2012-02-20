@@ -1,0 +1,11 @@
+# Reload profile: source ~/.bash_profile
+export BUNDLER_EDITOR=vim
+export EDITOR=vim
+set -o vi
+
+export PATH=$PATH:~/bin
+export PATH=$PATH:/usr/local/mysql/bin
+export DYLD_LIBRARY_PATH=/usr/local/mysql/lib:$DYLD_LIBRARY_PATH
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
+
