@@ -1,6 +1,8 @@
 # Reload profile: source ~/.bash_profile
 export BUNDLER_EDITOR=vim
 export EDITOR=vim
+
+# sets vim mode in bash - note: starts in insert mode
 set -o vi
 
 export PATH=$PATH:~/bin
