@@ -38,6 +38,8 @@ alias hbu='heroku pgbackups:url'
 alias hm='heroku maintenance:on'
 alias hmo='heroku maintenance:off'
 
+alias r='ruby '
+
 alias rn='rails new'
 alias rs='rails server --debugger '
 alias rg='rails generate'
@@ -51,3 +53,9 @@ alias rti='rake test:integration'
 alias rvmgd='cd $(rvm gemdir)'
 
 alias wlsd='git push heroku_staging staging:master'
+
+
+function take {
+  mkdir $1
+  cd $1
+}
